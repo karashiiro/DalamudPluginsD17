@@ -1,9 +1,10 @@
 [plugin]
 repository = "https://github.com/wrath16/MapPartyAssist.git"
-commit = "bd52d2fe22bc5dc5dd0eddbc9f7760dec21e836d"
+commit = "25ccbc0e75e01b134ba5e83d8e46e9c38b622a48"
 owners = ["wrath16"]
 project_path = "MapPartyAssist"
 changelog = """
-- Rollback v1.0.1 changes.
-- Some performance improvements.
+- Fix for handled chat messages stopping plugin from functioning.
+- Fix for special map names not being recognized.
+- Minor UI changes.
 """

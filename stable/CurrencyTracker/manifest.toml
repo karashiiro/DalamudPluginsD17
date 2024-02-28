@@ -1,9 +1,8 @@
 [plugin]
 repository = "https://github.com/AtmoOmen/CurrencyTracker.git"
-commit = "1aed3de5cf3590e855b4fbfb54b9cce63a15ae06"
+commit = "f9d9d20892debc1e2857787e4e3816ebd2817ed7"
 owners = ["AtmoOmen"]
 project_path = "CurrencyTracker"
 changelog = """
-- Fixed an issue where Interval Alert feature will create unexpected intervals.
-- Fixed an issue where Interval Alert feature will only display Gil instead of the actual item.
+- Fixed a file save failure error that occurred when a specific item name contained characters that could not be used as a file name.
 """
